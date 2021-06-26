@@ -11,8 +11,8 @@
       const audio = new Howl
 ({
       "src": [
-      "../sounds/audio.mp3",
-      "../sounds/audio.webm",
+      "../assets/sounds/audio.mp3",
+      "../assets/sounds/audio.webm",
     ],
     "sprite": {
       "A": [
