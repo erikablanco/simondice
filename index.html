@@ -9,3 +9,26 @@
     <title>Simon Dice</title>    
        
   </head>
+
+  <body>
+    <header class="header">
+      <h4 class="title">Simon Dice!</h4>
+    </header>
+    <div class="container">      
+      <div class="containerGame">
+        <div class="containerLevel">        
+            <input type="text" id='txtNivel' placeholder="Nivel: 0" class='txtLevel' readonly="readonly"> 
+        </div>   
+        <div class="gameboard">
+          <div id="green" class="color green left" data-color="green"></div>
+          <div id="red" class="color red right" data-color="red"></div>
+          <div id="blue" class="color blue left" data-color="blue"></div>
+          <div id="yellow" class="color yellow right" data-color="yellow"></div>
+          <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
+        </div>
+    </div>      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
