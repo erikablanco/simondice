@@ -6,7 +6,7 @@ body {
     margin: 0;    
     background-size: 2500px;
     background-repeat: no-repeat;
-    background-image: url('../assest/img/thumb-350-177902.png');
+    background-image: url('../assets/img/thumb-350-177902.png');
     font-family: var(--font-family);
     font-size: 50px;
     display: grid;
