@@ -1,0 +1,150 @@
+*{
+    --font-family: 'Jomhuria';
+}
+
+body {
+    margin: 0;    
+    background-size: 2500px;
+    background-repeat: no-repeat;
+    background-image: url('../assets/img/thumb-350-177902.png');
+    font-family: var(--font-family);
+    font-size: 50px;
+    display: grid;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .header {
+    margin: 15px auto 25px;
+  }
+  
+  .title {
+    font-size: 100px;
+    font-weight: 300;
+    margin: 10px;
+    color: white;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+ 
+
+  .containerGame {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .containerLevel {
+    margin-bottom: 35px;
+    height: 40px;
+    width: 100%;
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .txtLevel {
+    height: 50px;
+    text-align: center;
+    font-family: var(--font-text);
+    font-size: 40px;
+  }
+
+
+  .gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;    
+  }
+
+  .color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: left;
+  }
+
+  .green {
+    background:  #a7088d;
+  }
+
+  .green.light {
+    background: #eb11b5;
+  }
+
+  .red {
+    background: #37ac20;
+  }
+
+  .red.light {
+    background: #1eff00;
+  }
+
+  .blue {
+    background: #041e8ffb;
+  }
+
+  .blue.light {
+    background: #05b1f5f8;
+  }
+
+  .yellow {
+    background: #d86608;
+  }
+
+  .yellow.light {
+    background: #fac823e1;
+  }
+
+  .btn-start {
+    width: 250px;
+    height: 50px;
+    background: rgb(221, 216, 216);
+    color: hsl(0, 0%, 0%);
+    font-size: 2.5rem;
+    position:absolute;
+    margin-top: 150px;
+    margin-left: 76px;
+    margin-right: 100px;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+    border-radius: 20px;
+    box-shadow: white;
+    font-family: var(--font-family);
+  }
+
+  .hide {
+    display: none;
+  }
+  
+  .swal-title
+  {
+    font-size: 40px;
+  }
+
+  .swal-text
+  {
+    font-size: 30px;
+  }
+}
